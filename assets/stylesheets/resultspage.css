@@ -188,7 +188,7 @@ header {
 }
 
 .apps {
-	background-image: url('//ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+	background-image: url('../images/i2_2ec824b0.png');
 	background-size: 528px 68px;
 	background-position: -132px -38px;
 	height: 30px;
@@ -197,7 +197,7 @@ header {
 }
 
 .notifications{
-	background-image: url('//ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+	background-image: url('../images/i2_2ec824b0.png');
 	background-size: 528px 68px;
 	background-position: -194px -21px;
 	background-color: black;
@@ -271,6 +271,53 @@ header {
 	border-bottom: 3px solid #4285f4;
 	font-weight: bold;
 	color: #4285f4;
+}
+
+.down-arrow {
+	border-width: 5px 4px 0 4px !important;
+	border-color: #909090 transparent;
+	border-style: solid;
+	color: #777;
+	position: absolute;
+	left: 35px;
+	top: 5px;
+}
+
+.dropdown {
+	display: inline-block;
+	height: 35px;
+	position: relative;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 120px;
+	box-shadow: 0px 2px 4px #d6d6d6;
+	border: 1px solid #d6d6d6;
+	background: #fff;
+	text-align: left;
+	left: -15px;
+	top: 25px;
+	line-height: 5px;
+}
+
+.dropdown-content a {
+	padding: 10px 10px;
+	display: block;
+	text-align: left;
+	margin: 6px;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.dropbtn {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	margin-right: 35px;
 }
 
 /* Show all and hide private buttons */
